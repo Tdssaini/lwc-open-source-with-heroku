@@ -2,14 +2,9 @@
     "name": "lwc-open-source-with-heroku",
     "description": "LWC Open Source with Heroku",
     "repository": "https://github.com/Tdssaini/lwc-open-source-with-heroku",
-    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "logo": "https://developer.salesforce.com/resources2/quests/badge2.png",
     "keywords": ["node", "express", "static"],
     "scripts": {},
-    "env": {
-        "NODE_ENV": {
-            "required": true
-        }
-    },
     "formation": {
         "web": {
             "quantity": 1

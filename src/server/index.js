@@ -19,7 +19,6 @@ conn.login(SF_USERNAME, SF_PASSWORD + SF_TOKEN, err => {
     }
 });
 module.exports = app => {
-    // put your express app logic here
     app.get('/api/sessions', (req, res) => {
         const soql = `SELECT Id, Name, toLabel(Room__c), Description__c, format(Date_and_Time__c) formattedDateTime,
             (SELECT Speaker__r.Id, Speaker__r.Name, Speaker__r.Description, Speaker__r.Email, Speaker__r.Picture_URL__c FROM Session_Speakers__r)
