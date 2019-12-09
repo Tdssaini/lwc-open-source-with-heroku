@@ -1,7 +1,9 @@
 {
-    "name": "lwc-recipes-oss",
-    "description": "Config for Heroku Pipelines and Review Apps",
-    "repository": "https://github.com/trailheadapps/lwc-recipes-oss",
+    "name": "lwc-open-source-with-heroku",
+    "description": "LWC Open Source with Heroku",
+    "repository": "https://github.com/Tdssaini/lwc-open-source-with-heroku",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["node", "express", "static"],
     "scripts": {},
     "env": {
         "NODE_ENV": {
