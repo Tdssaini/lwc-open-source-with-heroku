@@ -1,0 +1,36 @@
+:host {
+    margin: 0.5rem;
+    flex: 1;
+    color: #080707;
+}
+.card {
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+.card .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.card img {
+    border-radius: 50%;
+    height: 5rem;
+    margin-right: 1rem;
+}
+.card .title {
+    font-weight: 600;
+}
+.card .icon {
+    color: #039be5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 24px;
+}
+.card .icon.email {
+    background-image: url(https://developer.salesforce.com/files/js-dev/icons/email.svg);
+    margin-top: 0.4rem;
+}
+p {
+    margin: 0;
+}

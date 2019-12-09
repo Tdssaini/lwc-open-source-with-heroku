@@ -1,0 +1,18 @@
+<template>
+    <template if:true={session}>
+        <h2>{session.name}</h2>
+        <p class="icon time">{session.dateTime}</p>
+        <p class="icon room">{session.room}</p>
+        <h3>Abstract</h3>
+        <div class="abstract">{session.description}</div>
+        <h3>Speakers</h3>
+        <div class="speaker-list">
+            <template if:true={session.speakers}>
+                <template for:each={session.speakers} for:item="speaker">
+                    <my-speaker-card key={speaker.id} speaker={speaker}>
+                    </my-speaker-card>
+                </template>
+            </template>
+        </div>
+    </template>
+</template>

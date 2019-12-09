@@ -1,0 +1,21 @@
+{
+    "name": "@lwc/jest-resolver",
+    "version": "2.2.0",
+    "description": "Jest resolver to resolve LWC specific packages",
+    "main": "src/index.js",
+    "keywords": [
+        "Jest",
+        "LWC"
+    ],
+    "files": [
+        "/resources/",
+        "/src/index.js"
+    ],
+    "peerDependencies": {
+        "@lwc/module-resolver": "*"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=10"
+    }
+}
