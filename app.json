@@ -4,6 +4,20 @@
     "repository": "https://github.com/Tdssaini/lwc-open-source-with-heroku",
     "logo": "https://developer.salesforce.com/resources2/quests/badge2.png",
     "keywords": ["node", "express", "static"],
+    "env": {
+        "SF_LOGIN_URL": {
+            "required": true
+        },
+        "SF_PASSWORD" : {
+            "required" : true
+        },
+        "SF_TOKEN" : {
+            "required" : true   
+        },
+        "SF_USERNAME" : {
+            "required" : true   
+        }
+    },
     "scripts": {},
     "formation": {
         "web": {
