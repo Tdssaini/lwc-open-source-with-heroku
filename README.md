@@ -5,7 +5,7 @@ Lightning Web Component Open Source with Nodejs project.
 
 ## Deploy project on Heroku
 
-1. Deploy project using below button :
+1. Deploy project using button
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tdssaini/lwc-open-source-with-heroku)
 2. While deploying, enter org credentials to connect your developer org.
 
