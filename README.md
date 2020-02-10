@@ -1,4 +1,4 @@
-# LWC Open Source withheroku
+# LWC Open Source with Heroku
 
 Lightning Web Component Open Source with Nodejs project. 
 
